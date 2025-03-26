@@ -1,23 +1,22 @@
-# Aahar - Food Donation App Version 1.0.0
+# Annapurna Food Donation App
 
-Aahar is a food donation app built on Java and powered by Firebase. Its primary objective is to facilitate the process of food donation, connecting food donators with receivers in a seamless manner. With Aahar, you can contribute to reducing food waste and helping those in need by donating surplus food items.
+Annapurna is a food donation app built on Java and powered by Firebase. Its primary objective is to facilitate the process of food donation, connecting food donators with receivers in a seamless manner. With Aahar, you can contribute to reducing food waste and helping those in need by donating surplus food items.
 
-## Screenshots
 
 <p align="center" float="left">
 <table>
   <tr>
-    <td>Splash Screen</td>
+<!--     <td>Splash Screen</td>
     <td>Register Screen</td>
     <td>Login Screen</td>
-    <td>Dashboard Screen</td>
+    <td>Dashboard Screen</td> -->
   </tr>
-  <tr>
-<!--     <td><img src="https://github.com/TarunSingh2002/AAHAR1.0.0/assets/133011792/ec9d3b10-ddd6-4c9e-8f8b-fdda547fc021" width="220"></td>
+<!--   <tr>
+    <td><img src="https://github.com/TarunSingh2002/AAHAR1.0.0/assets/133011792/ec9d3b10-ddd6-4c9e-8f8b-fdda547fc021" width="220"></td>
     <td><img src="https://github.com/TarunSingh2002/AAHAR1.0.0/assets/133011792/ed606fde-606c-423a-a445-44da1ec684f9" width="220"></td>
     <td><img src="https://github.com/TarunSingh2002/AAHAR1.0.0/assets/133011792/e5670d0b-730d-4e26-9d47-07f8dc756966" width="220"></td>
-    <td><img src="https://github.com/TarunSingh2002/AAHAR1.0.0/assets/133011792/a13831cd-10f4-4660-93c5-fdcdc25ba0cb" width="220"></td> -->
-  </tr>
+    <td><img src="https://github.com/TarunSingh2002/AAHAR1.0.0/assets/133011792/a13831cd-10f4-4660-93c5-fdcdc25ba0cb" width="220"></td>
+  </tr> -->
  </table>
  <table>
   <tr>
@@ -152,7 +151,7 @@ Aahar is a food donation app built on Java and powered by Firebase. Its primary 
 
 ## Registration
 
-To get started with Aahar, you need to register by providing the following information:
+To get started with Annapurna, you need to register by providing the following information:
 
 - Email: Your email address will be used for account verification and communication purposes.
 - Password: Choose a secure password to protect your account.
