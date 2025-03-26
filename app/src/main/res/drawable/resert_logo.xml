@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Circle -->
+    <path
+        android:pathData="M100,10 A90,90 0 1,1 99.9,10 Z"
+        android:strokeWidth="10"
+        android:strokeColor="#28D4FF"
+        android:fillColor="@color/transparent"/>
+
+    <!-- Inner Circle -->
+    <path
+        android:pathData="M100,25 A75,75 0 1,1 99.9,25 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeColor="#86E6FF"/>
+
+    <!-- Reset Icon (Circular Arrow) - Exactly Centered -->
+    <group android:translateX="100" android:translateY="100">
+        <!-- Circular Arrow -->
+        <path
+            android:pathData="M-20,-10 A30,30 0 1,1 10,20"
+            android:strokeColor="#333333"
+            android:strokeWidth="8"
+            android:fillColor="@color/transparent"/>
+
+        <!-- Arrowhead Properly Rotated -->
+        <path
+            android:pathData="M10,25 L20,10 L0,10 Z"
+            android:fillColor="#333333"/>
+    </group>
+
+    <!-- "RESET" Text Perfectly Centered -->
+<!--    <text-->
+<!--        android:x="50"-->
+<!--        android:y="105"-->
+<!--        android:fontSize="24"-->
+<!--        android:fillColor="#333333"-->
+<!--        android:text="RESET"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center"/>-->
+
+</vector>

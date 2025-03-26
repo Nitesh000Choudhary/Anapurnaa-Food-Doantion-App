@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Circle -->
+    <path
+        android:pathData="M100,10 A90,90 0 1,1 99.9,10 Z"
+        android:strokeWidth="10"
+        android:strokeColor="#28D4FF"
+        android:fillColor="@color/transparent"/>
+
+    <!-- Inner Circle -->
+    <path
+        android:pathData="M100,25 A75,75 0 1,1 99.9,25 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeColor="#86E6FF"/>
+
+    <!-- Delete Icon (Trash Bin) Centered -->
+    <group android:translateX="100" android:translateY="100">
+
+        <!-- Trash Bin Body -->
+        <path
+            android:pathData="M-22,-10 L22,-10 L18,30 L-18,30 Z"
+            android:fillColor="#0B0500"/>
+
+        <!-- Trash Bin Lid (Correctly Positioned and Proportional) -->
+        <path
+            android:pathData="M-25,-22 L25,-22 L22,-14 L-22,-14 Z"
+            android:fillColor="#0B0500"/>
+
+        <!-- Handle (Now Properly Attached to the Lid) -->
+        <path
+            android:pathData="M-12,-24 L12,-24 L10,-18 L-10,-18 Z"
+            android:fillColor="#050300"/>
+
+        <!-- Vertical Trash Lines (Aligned and Evenly Spaced) -->
+        <path
+            android:pathData="M-8,-5 L-8,25"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4"/>
+
+        <path
+            android:pathData="M8,-5 L8,25"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4"/>
+
+    </group>
+
+</vector>

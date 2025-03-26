@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:centerX="50%"
+                android:centerY="50%"
+                android:gradientRadius="500dp"
+                android:startColor="#FFFFFF"
+                android:endColor="#F0F0F0"
+                android:useLevel="false"/>
+        </shape>
+    </item>
+</layer-list>

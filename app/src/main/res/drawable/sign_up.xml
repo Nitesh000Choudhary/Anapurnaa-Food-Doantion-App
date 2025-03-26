@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Circle -->
+    <path
+        android:pathData="M100,10 A90,90 0 1,1 99.9,10 Z"
+        android:strokeWidth="10"
+        android:strokeColor="#28D4FF"
+        android:fillColor="@color/transparent"/>
+
+    <!-- Inner Circle -->
+    <path
+        android:pathData="M100,25 A75,75 0 1,1 99.9,25 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeColor="#86E6FF"/>
+
+    <!-- Sign-Up Icon (Perfect User + Plus Symbol) -->
+    <group android:translateX="55" android:translateY="50">
+
+        <!-- User Head -->
+        <path
+            android:pathData="M45,25 A15,15 0 1,1 45.1,25 Z"
+            android:fillColor="#333333"/>
+
+        <!-- User Body (Structured) -->
+        <path
+            android:pathData="M30,50 L60,50 Q70,60 60,75 L30,75 Q20,60 30,50 Z"
+            android:fillColor="#333333"/>
+
+        <!-- Plus Symbol -->
+        <path
+            android:pathData="M70,45 L90,45 M80,35 L80,55"
+            android:strokeWidth="6"
+            android:strokeColor="#333333"/>
+
+    </group>
+
+</vector>
